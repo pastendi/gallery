@@ -2,7 +2,7 @@ import UserList from './components/UserList'
 
 function App() {
   return (
-    <div className='container mx-auto'>
+    <div className='container max-w-6xl mx-auto'>
       <UserList />
     </div>
   )

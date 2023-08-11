@@ -1,5 +1,34 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "tendi"
+    },
+    {
+      "name": "Duane Olson",
+      "id": 7
+    },
+    {
+      "name": "Stuart Weissnat",
+      "id": 18
+    },
+    {
+      "name": "Tara Rath",
+      "id": 19
+    },
+    {
+      "name": "Claire Powlowski",
+      "id": 20
+    },
+    {
+      "name": "Dale Stroman I",
+      "id": 21
+    },
+    {
+      "name": "Angelo Hodkiewicz",
+      "id": 22
+    }
+  ],
   "albums": [],
   "photos": []
 }
