@@ -20,7 +20,7 @@ const UserList = () => {
   } else if (fetchingUsersError) {
     content = <h1>Fetching error....</h1>
   } else {
-    content = data.map((user) => <User key={user.id} {...user} />)
+    content = data.map((user) => <User key={user.id} user={user} />)
   }
   return (
     <div>
@@ -35,7 +35,7 @@ const UserList = () => {
           <div className={`${isLoadingAddUser ? 'block' : 'hidden'}`}>
             <Loading size={4} />
           </div>
-          <p>Add user</p>
+          <p className='text-white'>Add user</p>
         </button>
         {addingUserError && (
           <p className='absolute right-24 bottom-2 bg-red-400 px-2 py-0 rounded'>

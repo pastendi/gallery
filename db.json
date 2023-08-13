@@ -19,16 +19,11 @@
     {
       "name": "Claire Powlowski",
       "id": 20
-    },
-    {
-      "name": "Dale Stroman I",
-      "id": 21
-    },
-    {
-      "name": "Angelo Hodkiewicz",
-      "id": 22
     }
   ],
-  "albums": [],
+  "albums": [
+    { "id": 1, "title": "flower", "userId": 1 },
+    { "id": 2, "title": "trip", "userId": 1 }
+  ],
   "photos": []
 }
