@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import { RiArrowDropRightLine, RiArrowDropDownLine } from 'react-icons/ri'
 import { ImBin } from 'react-icons/im'
+import { useDeleteAlbumMutation } from '../store'
 
 const Album = ({ album }) => {
   const [showImage, setShowImage] = useState(false)
+  const [deleteAlbum, results] = useDeleteAlbumMutation()
 
   return (
     <div className=' mb-2 py-2 border rounded'>
@@ -21,7 +23,7 @@ const Album = ({ album }) => {
           </button>
           <p>{album.title}</p>
         </div>
-        <button className='mr-6'>
+        <button className='mr-6' onClick={() => deleteAlbum(album)}>
           <ImBin size={20} color='red' />
         </button>
       </div>
