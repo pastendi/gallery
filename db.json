@@ -53,19 +53,9 @@
       "id": 6
     },
     {
-      "userId": 1,
-      "title": "Handcrafted Fresh Chicken",
-      "id": 7
-    },
-    {
       "userId": 19,
       "title": "Practical Steel Bike",
       "id": 8
-    },
-    {
-      "userId": 1,
-      "title": "Fantastic Metal Chips",
-      "id": 9
     },
     {
       "userId": 18,
@@ -76,6 +66,11 @@
       "userId": 18,
       "title": "Handmade Fresh Soap",
       "id": 11
+    },
+    {
+      "userId": 18,
+      "title": "Electronic Metal Cheese",
+      "id": 12
     }
   ],
   "photos": []

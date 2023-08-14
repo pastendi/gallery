@@ -3,10 +3,10 @@ import { useFetchAlbumsQuery, useAddAlbumMutation } from '../store'
 import Album from './Album'
 
 const AlbumList = ({ user }) => {
-  const { data, error, isLoading } = useFetchAlbumsQuery(user)
+  const { data, error, isFetching } = useFetchAlbumsQuery(user)
   const [addAlbum, results] = useAddAlbumMutation()
   let content
-  if (isLoading) {
+  if (isFetching) {
     content = <h1>Loading...</h1>
   } else if (error) {
     content = <h1>Fetching error....</h1>
