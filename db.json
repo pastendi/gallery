@@ -22,8 +22,81 @@
     }
   ],
   "albums": [
-    { "id": 1, "title": "flower", "userId": 1 },
-    { "id": 2, "title": "trip", "userId": 1 }
+    {
+      "id": 1,
+      "title": "flower",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "trip",
+      "userId": 1
+    },
+    {
+      "userId": 7,
+      "title": "Handmade Fresh Keyboard",
+      "id": 3
+    },
+    {
+      "userId": 7,
+      "title": "Recycled Steel Sausages",
+      "id": 4
+    },
+    {
+      "userId": 7,
+      "title": "Licensed Frozen Pants",
+      "id": 5
+    },
+    {
+      "userId": 7,
+      "title": "Luxurious Rubber Chicken",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "title": "Handcrafted Fresh Chicken",
+      "id": 7
+    },
+    {
+      "userId": 19,
+      "title": "Practical Steel Bike",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "title": "Fantastic Metal Chips",
+      "id": 9
+    },
+    {
+      "userId": 18,
+      "title": "Unbranded Steel Towels",
+      "id": 10
+    },
+    {
+      "userId": 18,
+      "title": "Handmade Fresh Soap",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "title": "Electronic Rubber Shirt",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "title": "Rustic Granite Chair",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "title": "Unbranded Plastic Salad",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "title": "Intelligent Soft Fish",
+      "id": 15
+    }
   ],
   "photos": []
 }
