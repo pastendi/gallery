@@ -15,10 +15,6 @@
     {
       "name": "Tara Rath",
       "id": 19
-    },
-    {
-      "name": "Claire Powlowski",
-      "id": 20
     }
   ],
   "albums": [
@@ -73,5 +69,61 @@
       "id": 12
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 2,
+      "src": "https://picsum.photos/seed/z8atgsL5PL/640/480",
+      "id": 8
+    },
+    {
+      "albumId": 2,
+      "src": "https://picsum.photos/seed/DRWDby/640/480",
+      "id": 9
+    },
+    {
+      "albumId": 1,
+      "src": "https://loremflickr.com/640/480?lock=3778264225021952",
+      "id": 10
+    },
+    {
+      "albumId": 1,
+      "src": "https://loremflickr.com/640/480?lock=5368933404114944",
+      "id": 11
+    },
+    {
+      "albumId": 1,
+      "src": "https://picsum.photos/seed/IFplida/640/480",
+      "id": 12
+    },
+    {
+      "albumId": 13,
+      "src": "https://picsum.photos/seed/eTW98Pw/640/480",
+      "id": 13
+    },
+    {
+      "albumId": 10,
+      "src": "https://picsum.photos/seed/q7f2OlQ7tM/640/480",
+      "id": 14
+    },
+    {
+      "albumId": 2,
+      "src": "https://picsum.photos/seed/KfVnF4pa/640/480",
+      "id": 15
+    },
+    {
+      "albumId": 2,
+      "src": "https://picsum.photos/seed/8Hdatmj/640/480",
+      "id": 16
+    },
+    {
+      "albumId": 2,
+      "src": "https://loremflickr.com/640/480?lock=4107797218197504",
+      "id": 17
+    },
+    {
+      "albumId": 2,
+      "src": "https://loremflickr.com/640/480?lock=6958034131615744",
+      "id": 18
+    }
+  ]
 }

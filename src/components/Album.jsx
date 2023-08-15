@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { RiArrowDropRightLine, RiArrowDropDownLine } from 'react-icons/ri'
 import { ImBin } from 'react-icons/im'
 import { useDeleteAlbumMutation } from '../store'
+import PhotoList from './PhotoList'
 
 const Album = ({ album }) => {
   const [showImage, setShowImage] = useState(false)
@@ -27,6 +28,7 @@ const Album = ({ album }) => {
           <ImBin size={20} color='red' />
         </button>
       </div>
+      {showImage ? <PhotoList album={album} /> : null}
     </div>
   )
 }
